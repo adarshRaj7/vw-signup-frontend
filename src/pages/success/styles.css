@@ -1,0 +1,11 @@
+.success-component {
+  background-color: #f9ffda;
+  min-height: 100vh;
+}
+nav {
+  border-bottom: 2px solid #f2f2f2;
+}
+
+.select-link{
+    color:  #7866dd;
+}

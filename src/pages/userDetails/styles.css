@@ -1,0 +1,31 @@
+.details-container {
+  background-color: #f9ffda;
+  height: 100vh;
+}
+.location-textfield {
+  background-color: #f9ffda;
+  border-bottom: 2px solid #f2f2f2;
+}
+.submit-button {
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+
+  transition: 0.2s all;
+}
+.submit-button:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+}
+.submit-button:disabled {
+  filter: grayscale(100%);
+}
+.submit-button:disabled:hover {
+  cursor: not-allowed;
+}
+.preview-image {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 5rem;
+  height: 5rem;
+}
